@@ -1,0 +1,22 @@
+CLEAR
+
+* Creo mi nuevo Guid
+newGuid = CREATEOBJECT("Scriptlet.TypeLib")
+
+* Capturo mi cadena
+newGuid = newGuid.Guid
+
+* Elimino llaves "{}" y espacios en blanco
+newGuid = STRTRAN(newGuid, "{", "")  && Remover "{"
+newGuid = STRTRAN(newGuid, "}", "")  && Remover "}"
+newGuid = STRTRAN(newGuid, " ", "")  && Remover espacios
+
+* Remuevo los dos ultimos digitos que corresponde a " t"
+newGuidFormat = LEFT(newGuid, LEN(newGuid) - 2)
+
+* Imprimo el Guid
+? newGuidFormat
+
+*FIN
+? ""
+? "/////// END ///////"

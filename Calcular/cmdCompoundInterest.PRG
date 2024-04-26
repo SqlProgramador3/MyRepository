@@ -1,0 +1,31 @@
+CLEAR  && Limpiar la pantalla
+? "Calculadora de Interés Compuesto"
+
+* Solicitar al usuario los datos necesarios
+INPUT "Monto principal:" To nPrincipal
+INPUT "Tasa de interés (%):" To nTasa
+INPUT "Tiempo (en años):" To nTiempo
+
+* Convertir la tasa de interés a términos decimales
+nTasaDecimal = nTasa / 100
+
+* Calcular el interés compuesto
+* A=P×(1+r)^n
+nMontoTotal = nPrincipal * (1 + nTasaDecimal) ^ nTiempo
+
+* Mostrar los resultados
+WAIT CLEAR
+? "Monto principal:"
+? STR(nPrincipal)
+? ""
+? "Tasa de interés (%):",
+? STR(nTasa)
+? ""
+? "Tiempo (en años):" 
+? STR(nTiempo)
+? ""
+? "Interés compuesto:"
+? STR(nMontoTotal - nPrincipal)&& Mostrar solo el interés generado
+? ""
+? "Monto total acumulado:" 
+? STR(nMontoTotal) && Mostrar el monto total acumulado (capital más intereses)

@@ -1,0 +1,34 @@
+Calculadora de Interés Simple y Compuesto:
+Crea un programa que permita calcular tanto el interés simple como el interés compuesto dado el monto principal, la tasa de interés y el tiempo.
+
+Conversor de Temperatura:
+Crea un programa que convierta una temperatura dada en grados Celsius a Fahrenheit y viceversa.
+
+Calculadora de Impuestos:
+Crea una calculadora de impuestos que solicite al usuario su ingreso anual y calcule el impuesto a pagar según una tabla de tasas impositivas.
+
+Manejo de Fechas:
+Crea un programa que calcule la cantidad de días transcurridos entre dos fechas ingresadas por el usuario.
+
+Ejercicio de cálculo de edad:
+Escribe un programa en Visual FoxPro que solicite al usuario su año de nacimiento y calcule automáticamente su edad actual. Muestra la edad resultante en la pantalla.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Ejercicio de conversión de temperatura:
+Crea un programa que convierta una temperatura ingresada por el usuario en grados Celsius a grados Fahrenheit utilizando la fórmula de conversión adecuada. Muestra el resultado de la conversión.
+
+Ejercicio de operaciones matemáticas:
+Escribe un programa que solicite al usuario dos números enteros y realice las siguientes operaciones con ellos: suma, resta, multiplicación, división entera y división real. Muestra los resultados de cada operación.
+
+Ejercicio de listado de archivos:
+Desarrolla un programa que liste todos los archivos de un directorio específico en la pantalla. Puedes utilizar la función ADIR() para obtener la lista de archivos y mostrar sus nombres.
+
+Ejercicio de generación de números aleatorios:
+Crea un programa que genere un número aleatorio entre un rango especificado por el usuario. Solicita al usuario el valor mínimo y máximo del rango y muestra el número aleatorio generado.
+
+Ejercicio de cálculo de factorial:
+Escribe un programa que solicite al usuario un número entero positivo y calcule su factorial. Muestra el resultado del cálculo.
+
+Ejercicio de manipulación de cadenas:
+Desarrolla un programa que solicite al usuario una cadena de texto y realice las siguientes operaciones: contar la cantidad de caracteres, convertir a mayúsculas, convertir a minúsculas y mostrar el texto invertido.

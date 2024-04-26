@@ -1,0 +1,15 @@
+* Crear el objeto WinHttpRequest
+loHttp = CREATEOBJECT("WinHttp.WinHttpRequest.5.1")
+
+* Definir la URL de la API
+lcUrl = "https://ejemplo.com/api/endpoint"
+
+* Hacer la solicitud GET
+loHttp.Open("GET", lcUrl)
+loHttp.Send()
+
+* Obtener la respuesta
+lcResponse = loHttp.ResponseText
+
+* Mostrar la respuesta
+? lcResponse
