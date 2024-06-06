@@ -1,3 +1,10 @@
+Tareas de Apropiación de conceptos para la refactorización del Modulo-Sender
+1. Patron Fabrica Abstracta (https://refactoring.guru/es/design-patterns)
+2. Inyeccion de dependencias.
+3. Dtos (Objetos de transferencia)
+4. Arquitectura por capas
+
+
 Calculadora de Interés Simple y Compuesto:
 Crea un programa que permita calcular tanto el interés simple como el interés compuesto dado el monto principal, la tasa de interés y el tiempo.
 
